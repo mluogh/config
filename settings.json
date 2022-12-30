@@ -1,0 +1,110 @@
+{
+  "editor.formatOnSave": true,
+  "vim.leader": ",",
+  "editor.lineNumbers": "relative",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.cursorSurroundingLines": 5,
+  "editor.autoClosingBrackets": "never",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<C-Space>",
+        "l"
+      ],
+      "commands": [
+        {
+          "command": "workbench.action.navigateRight"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<C-Space>",
+        "h"
+      ],
+      "commands": [
+        {
+          "command": "workbench.action.navigateLeft"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<C-Space>",
+        "k"
+      ],
+      "commands": [
+        {
+          "command": "workbench.action.navigateUp"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<C-Space>",
+        "j"
+      ],
+      "commands": [
+        {
+          "command": "workbench.action.navigateDown"
+        }
+      ]
+    },
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        "<leader>",
+        "c",
+        "<space>"
+      ],
+      "commands": [
+        {
+          "command": "editor.action.commentLine"
+        }
+      ]
+    },
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "c",
+        "<space>"
+      ],
+      "commands": [
+        {
+          "command": "editor.action.commentLine"
+        }
+      ]
+    },
+  ],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    },
+    {
+      "before": [
+        "Ctrl",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    },
+  ],
+  "editor.minimap.enabled": false,
+  "security.workspace.trust.startupPrompt": "never",
+  "security.workspace.trust.enabled": false,
+  "editor.formatOnType": true,
+  "workbench.colorTheme": "Default Dark+",
+  "editor.inlayHints.enabled": "offUnlessPressed",
+  "terminal.integrated.sshHost": "bigmluo.mtv.corp.google.com",
+}
